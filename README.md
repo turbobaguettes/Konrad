@@ -1,2 +1,2 @@
 # Konrad
-https://turbobaguettes.github.io/konrad
+https://turbobaguettes.github.io/Konrad/
