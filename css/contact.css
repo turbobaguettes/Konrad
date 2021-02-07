@@ -51,7 +51,7 @@
 }
 
 .contact-icon-telephone {
-  margin-right: 10px;
+  margin-right: 5px;
   height: 35px;
 }
 
@@ -89,7 +89,6 @@
   margin: 10px;
   box-shadow: 0 0 5px #ccc;
   transition: 0.3s;
-  text-align: center;
 }
 
 .contact-fields {
