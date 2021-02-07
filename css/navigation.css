@@ -34,7 +34,7 @@
 
 .main-navigation__logo-image {
   width: 70px;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 @media (max-width: 991px) {
@@ -53,7 +53,7 @@
   transition-property: opacity, transform;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .main-navigation__menu {
     position: fixed;
     bottom: 0;
@@ -66,11 +66,10 @@
     align-items: center;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-50%);
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .main-navigation__menu--open {
     opacity: 1;
     pointer-events: unset;
@@ -141,7 +140,7 @@
   display: none;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .main-navigation__mobile-button {
     display: unset;
     background: none;

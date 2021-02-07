@@ -1,5 +1,5 @@
 .contact {
-  padding: 100px;
+  padding-top: 100px;
   background: #21252b;
   color: white;
   text-shadow: 0 0 10px black;
@@ -8,7 +8,7 @@
 
 @media (max-width: 767px) {
   .contact {
-    padding: 50px;
+    padding: 10px;
   }
 }
 
@@ -105,7 +105,7 @@
   color: black;
   border: 1px white;
   border-radius: 20px;
-  transition: 0.5s;
+  transition: 0.3s;
   cursor: pointer;
   margin: 5px;
   box-shadow: 0 0 10px #08a9f1;
