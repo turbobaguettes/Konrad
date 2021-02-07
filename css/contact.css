@@ -94,6 +94,10 @@
   transition: 0.3s;
 }
 
+.contact-field:hover {
+  box-shadow: 0 0 13px #ccc;
+}
+
 .contact-fields {
   justify-content: center;
 }
