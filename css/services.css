@@ -93,19 +93,51 @@
 
 .box-third-header {
   margin: 0;
-  padding: 0;
-  color: #fff;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   text-transform: uppercase;
+  border-bottom: 1px solid white;
 }
 
 .box-paragraph {
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 20px;
   color: #fff;
   font-size: 18px;
   line-height: 1.5;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.box-price {
+  margin: 10px;
+  padding: 30px;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(3, 0, 0);
+}
+
+@media (max-width: 600px) {
+  .box-price {
+    font-size: 18px;
+  }
+}
+
+.box-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-list__item {
+  color: white;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.box-list__item::before {
+  content: "- ";
 }
 
 .box-link {
