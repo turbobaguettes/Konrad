@@ -1,7 +1,6 @@
 .footer-icon {
   height: 18px;
   margin-left: 10px;
-  border: 1px solid #ccc;
   background: white;
   border-radius: 50%;
 }
@@ -10,7 +9,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  color: #ccc;
   background: #21252b;
-  padding: 5px;
+  color: gray;
+  padding: 10px;
 }

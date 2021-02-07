@@ -72,6 +72,10 @@
   .contact-link {
     font-size: 18px;
   }
+
+  .contact-icon-telephone {
+    margin-right: 10px;
+  }
 }
 
 .contact-fields-container {
@@ -101,11 +105,10 @@
   color: black;
   border: 1px white;
   border-radius: 20px;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
   margin: 5px;
   box-shadow: 0 0 10px #08a9f1;
-
 }
 
 .contact-button:hover {
