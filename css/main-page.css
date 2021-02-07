@@ -1,0 +1,35 @@
+.main-page {
+  background: url(/img/main-jpg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  border: 2px solid white;
+  font-weight: bold;
+  border-radius: 30px;
+  color: white;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.main-page__link:hover {
+  background: rgba(0, 0, 0, 0.74);
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+}
+
+@media (max-width: 767px) {
+  .main-page__link {
+    padding: 15px 35px;
+    font-size: 18px;
+  }
+}

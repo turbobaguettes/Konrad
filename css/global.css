@@ -1,0 +1,15 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
