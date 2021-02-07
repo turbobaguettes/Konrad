@@ -60,7 +60,7 @@
     top: 0;
     right: 0;
     left: 0;
-    background: url(/img/what-the-hex-dark.png);
+    background: url(../img/what-the-hex-dark.png);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -98,16 +98,12 @@
   transition: 0.3s;
 }
 
-.main-navigation__menu-link:hover {
-  color: #27a9f1;
-}
-
 .main-navigation__menu-link::after {
   content: "";
   display: block;
   width: 0;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #27a9f1;
   transition: 0.3s;
 }
 
