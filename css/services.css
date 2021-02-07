@@ -100,8 +100,26 @@
 
 .box-paragraph {
   margin: 0;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   color: #fff;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.box-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px white;
+  background: rgba(255, 255, 255, 0.753);
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.box-link:hover {
+  background: white;
 }
