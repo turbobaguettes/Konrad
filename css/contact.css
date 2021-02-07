@@ -115,6 +115,7 @@
 .contact-field-textarea {
   height: 200px;
   resize: vertical;
+  width: 500px;
 }
 
 .contact-field::placeholder {
