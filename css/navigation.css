@@ -60,7 +60,7 @@
     top: 0;
     right: 0;
     left: 0;
-    background: url(../img/what-the-hex-dark.png);
+    background: #273341;
     flex-direction: column;
     justify-content: center;
     align-items: center;

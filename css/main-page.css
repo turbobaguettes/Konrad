@@ -14,11 +14,11 @@
   font-size: 22px;
   border: 2px solid white;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 50px;
   color: white;
-  padding: 20px 40px;
+  padding: 20px 50px;
   background: rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .main-page__link:hover {

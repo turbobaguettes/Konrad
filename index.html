@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/main-page.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/about-us.css">
 
 <body>
 
@@ -31,10 +33,10 @@
                     <a href="#" class="main-navigation__menu-link"> Home </a>
                 </li>
                 <li class="main-navigation__menu-item">
-                    <a href="#about-us" class="main-navigation__menu-link"> O mnie </a>
+                    <a href="#about-us" class="main-navigation__menu-link"> O stronie </a>
                 </li>
                 <li class="main-navigation__menu-item">
-                    <a href="#services" class="main-navigation__menu-link"> Oferta </a>
+                    <a href="#services" class="main-navigation__menu-link"> Plany treningowe </a>
                 </li>
                 <li class="main-navigation__menu-item">
                     <a href="#gallery" class="main-navigation__menu-link"> Galeria </a>
@@ -44,21 +46,44 @@
                 </li>
             </ul>
             <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
-                <img src="img/navigation.svg" alt="Otwórz / zamknij nawigację"
-                    class="main-navigation__mobile-button-image" />
+                <img src="img/navigation.svg" alt="Nawigacja" class="main-navigation__mobile-button-image" />
             </button>
         </div>
     </nav>
 
     <script src="js/main-navigation.js"></script>
 
-    <section class="main-page">
-        <a href="#" class="main-page__link">Więcej</a>
+    <section class="main-page" id="#">
+        <a href="#about-us" class="main-page__link">Więcej</a>
     </section>
 
-    <section class="about-us">
+    <div class="about-us__background">
+        <div class="container">
+            <section class="about-us" id="about-us">
+                <div class="about-us__text">
+                    <h2 class="about-us__header">
+                        Trening wspinaczkowy 🧗
+                    </h2>
+                    <p class="about-us__paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iste a optio, provident quos
+                        minima vitae ad consectetur expedita autem accusantium quisquam qui error dolorem veritatis
+                        mollitia
+                        beatae? Quas, magni?
+                    </p>
+                    <p class="about-us__paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem non iure illum harum
+                        dolorum
+                        quibusdam vitae nobis culpa quam voluptatibus! Repellendus autem sit modi officia, expedita
+                        voluptates repudiandae ipsam itaque.
+                    </p>
+                    <a href="#" class="about-us__link">Zobacz wpisy</a>
+                </div>
+                <img class="about-us__image" src="img/about-us-image.jpeg" alt="AboutUsImage">
+            </section>
+        </div>
+    </div>
 
-    </section>
+    <section class="services"></section>
 
 </body>
 
