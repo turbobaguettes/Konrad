@@ -1,6 +1,7 @@
 .services {
   padding: 100px;
   background: url(../img/services.jpg);
+  background-size: cover;
   display: flex;
   align-items: center;
 }

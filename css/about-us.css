@@ -62,5 +62,9 @@
 }
 
 .about-us__background {
-  background: #21252B;
+  background: #21252b;
+}
+
+.contact-fields {
+  display: flex;
 }

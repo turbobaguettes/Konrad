@@ -118,10 +118,6 @@
     font-weight: bold;
     line-height: 2;
   }
-
-  .main-navigation__menu-link:hover {
-    color: black;
-  }
 }
 
 .main-navigation__social-icon {
