@@ -1,8 +1,6 @@
 .services {
   padding: 100px;
   background: url(../img/pexels-allan-mas-5383777.jpg);
-  background-position: center;
-  background-size: cover;
   display: flex;
   align-items: center;
 }
