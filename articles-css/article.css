@@ -10,8 +10,21 @@
   padding-top: 150px;
 }
 
+@media (max-width: 767px) {
+  .articles-header {
+    padding-top: 100px;
+  }
+}
+
 .article-header {
   color: #27a9f1;
+}
+
+@media (max-width: 767px) {
+  .article-header {
+    text-align: center;
+    padding-top: 25px;
+  }
 }
 
 .article {
@@ -31,14 +44,13 @@
 .article-paragraph {
   text-align: justify;
   line-height: 1.9;
-  
 }
 
 @media (max-width: 767px) {
   .article-paragraph {
     width: 100%;
     padding-left: 3px;
-  padding-right: 3px;
+    padding-right: 3px;
   }
 }
 
