@@ -21,9 +21,23 @@
   color: white;
 }
 
+@media (max-width: 767px) {
+  .article {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .article-paragraph {
   text-align: justify;
   line-height: 1.9;
+}
+
+@media (max-width: 767px) {
+  .article-paragraph {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 .plusy {
