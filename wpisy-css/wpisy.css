@@ -1,4 +1,22 @@
 .articles-container {
-  height: 1100px;
+  height: 100vh;
   background: #21252b;
+}
+
+.articles-header {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 150px;
+}
+
+.article {
+  margin: 0 auto;
+  width: 700px;
+  color: white;
+}
+
+.article-paragraph {
+  text-align: justify;
+  line-height: 1.7;
 }

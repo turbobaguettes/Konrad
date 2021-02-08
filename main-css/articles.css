@@ -1,4 +1,4 @@
-.about-us {
+.articles {
   color: white;
   display: flex;
   align-items: center;
@@ -6,20 +6,21 @@
   padding-bottom: 20px;
 }
 
-.about-us__header {
+.articles__header {
+  text-align: right;
   text-transform: uppercase;
   font-size: 30px;
   text-shadow: 0 0 10px black;
 }
 
 @media (max-width: 767px) {
-  .about-us__header {
+  .articles__header {
     font-size: 25px;
     margin: 0;
   }
 }
 
-.about-us__paragraph {
+.articles__paragraph {
   line-height: 1.9;
   color: white;
   font-size: 18px;
@@ -28,13 +29,13 @@
 }
 
 @media (max-width: 767px) {
-  .about-us__paragraph {
+  .articles__paragraph {
     font-size: 16px;
     line-height: 1.5;
   }
 }
 
-.about-us__image {
+.articles__image {
   float: right;
   box-shadow: 0 0 10px #000000;
   border-radius: 5px;
@@ -44,12 +45,12 @@
 }
 
 @media (max-width: 767px) {
-  .about-us__image {
+  .articles__image {
     display: none;
   }
 }
 
-.about-us__link {
+.articles__link {
   text-decoration: none;
   color: white;
   padding: 10px 20px;
@@ -59,10 +60,10 @@
   box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
-.about-us__link:hover {
+.articles__link:hover {
   box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
-.about-us__background {
+.articles__background {
   background: #21252b;
 }
