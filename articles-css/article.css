@@ -40,6 +40,10 @@
   }
 }
 
+.article-paragraph-last{
+  margin-bottom:0px;
+}
+
 .plusy {
   color: #2ea043;
 }
