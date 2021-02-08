@@ -33,3 +33,7 @@
     font-size: 18px;
   }
 }
+
+.main-page__slider {
+  overflow: hidden;
+}
