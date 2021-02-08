@@ -1,4 +1,4 @@
-# Konrad
+# ModernClimb
 
 Portfolio website for my friend
 
