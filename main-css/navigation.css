@@ -98,7 +98,9 @@
   line-height: 1.5;
 }
 
-.main-navigation__menu-link-article {
+/* "Artykuły" w menu */
+
+.main-navigation__menu-link-articles {
   color: #27a9f1;
 }
 
