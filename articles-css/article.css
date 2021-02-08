@@ -31,17 +31,19 @@
 .article-paragraph {
   text-align: justify;
   line-height: 1.9;
+  
 }
 
 @media (max-width: 767px) {
   .article-paragraph {
     width: 100%;
-    padding: 0;
+    padding-left: 3px;
+  padding-right: 3px;
   }
 }
 
-.article-paragraph-last{
-  margin-bottom:0px;
+.article-paragraph-last {
+  margin-bottom: 0px;
 }
 
 .plusy {
