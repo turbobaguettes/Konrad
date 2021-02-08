@@ -95,7 +95,7 @@
   transition: 0.3s;
   font-size: 24px;
   transition: 0.3s;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .main-navigation__menu-link::after {
@@ -115,7 +115,7 @@
 @media (max-width: 991px) {
   .main-navigation__menu-link {
     font-size: 22px;
-    line-height: 2;
+    line-height: 1.5;
   }
 }
 

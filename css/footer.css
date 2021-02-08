@@ -1,5 +1,5 @@
 .footer-icon {
-  height: 18px;
+  height: 14px;
   margin-left: 10px;
   background: white;
   border-radius: 50%;
@@ -7,9 +7,11 @@
 
 .footer-container {
   display: flex;
+  align-items: center;
   justify-content: center;
   text-align: center;
   background: #21252b;
   color: gray;
   padding: 5px;
+  font-size: 14px;
 }
