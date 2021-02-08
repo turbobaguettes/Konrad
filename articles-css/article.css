@@ -110,22 +110,6 @@
   background: #0b8043;
 }
 
-.trening11 {
-  background: #f4511e;
-}
-
-.trening22 {
-  background: #f6bf26;
-}
-
-.trening33 {
-  background: #f4511e;
-}
-
-.trening44 {
-  background: #f6bf26;
-}
-
 .trening55 {
   background: #d50000;
 }
@@ -139,7 +123,7 @@
 }
 
 .trening88 {
-  background: #039be5;
+  background: conic-gradient(#3f51b5 50%, #039be5 50%);
 }
 
 /* #F9826C orange*/
