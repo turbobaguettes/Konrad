@@ -27,7 +27,7 @@
   border: 2px solid white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .main-page__link {
     padding: 15px 35px;
     font-size: 18px;
