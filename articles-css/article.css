@@ -5,8 +5,13 @@
 .articles-header {
   color: #27a9f1;
   text-align: center;
+  font-weight: bold;
   margin: 0;
   padding-top: 150px;
+}
+
+.article-header {
+  color: #27a9f1;
 }
 
 .article {
@@ -19,6 +24,14 @@
 .article-paragraph {
   text-align: justify;
   line-height: 1.9;
+}
+
+.plusy {
+  color: #2ea043;
+}
+
+.minusy {
+  color: #da3633;
 }
 
 /* #2EA043 green */
