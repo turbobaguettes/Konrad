@@ -35,21 +35,6 @@
   }
 }
 
-.articles__image {
-  float: right;
-  box-shadow: 0 0 10px #000000;
-  border-radius: 5px;
-  width: 350px;
-  height: 500px;
-  margin-left: 30px;
-}
-
-@media (max-width: 767px) {
-  .articles__image {
-    display: none;
-  }
-}
-
 .articles__link {
   text-decoration: none;
   color: white;
