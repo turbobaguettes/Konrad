@@ -9,6 +9,7 @@
 @media (max-width: 767px) {
   .services {
     padding: 50px;
+    background-position: center;
   }
 }
 
