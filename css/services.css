@@ -67,17 +67,17 @@
 }
 
 .box:nth-child(1) {
-  background: linear-gradient(45deg, #eeb71fe8, #f08f11cc);
+  background: linear-gradient(45deg, #eeb71fd8, #f08f11d8);
   box-shadow: 0 5px 10px #eeb71fe8;
 }
 
 .box:nth-child(2) {
-  background: linear-gradient(45deg, #f08f11ce, #ff559cda);
+  background: linear-gradient(45deg, #f08f11da, #ff559cda);
   box-shadow: 0 5px 10px #f08f11dc;
 }
 
 .box:nth-child(3) {
-  background: linear-gradient(45deg, #ff026cd5, #ff559cd7);
+  background: linear-gradient(45deg, #ff026bcc, #ff559cd7);
   box-shadow: 0 5px 10px #ff026cd5;
 }
 
