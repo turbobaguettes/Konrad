@@ -1,5 +1,4 @@
 .articles-container {
-  height: 100vh;
   background: #21252b;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .article {
+  padding: 50px;
   margin: 0 auto;
   width: 700px;
   color: white;
@@ -18,5 +18,5 @@
 
 .article-paragraph {
   text-align: justify;
-  line-height: 1.7;
+  line-height: 1.9;
 }
