@@ -2,8 +2,13 @@
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.blur {
+  filter: blur(3px);
 }
 
 .articles__header {
@@ -36,6 +41,7 @@
 }
 
 .articles__link {
+  line-height: 2;
   text-decoration: none;
   color: white;
   padding: 10px 20px;
