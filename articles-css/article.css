@@ -70,6 +70,45 @@
   color: #f9826c;
 }
 
+.trening {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #039be5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  user-select: none;
+}
+
+.trening1 {
+  background: #039be5;
+}
+
+.trening2 {
+  background: #d50000;
+}
+
+.trening3 {
+  background: #e67c73;
+}
+
+.trening4 {
+  background: #3f51b5;
+}
+
+.trening5 {
+  background: #8e24aa;
+}
+
+.trening6 {
+  background: #0b8043;
+}
+
 /* #F9826C orange*/
 /* #2EA043 green */
 /* #58C0DD blue */
