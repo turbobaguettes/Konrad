@@ -1,14 +1,12 @@
 .main-page {
-  background: url(../img/main-jpg.jpg);
   height: 100vh;
-  background-position: center;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .main-page__link {
+  position: absolute;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
@@ -34,6 +32,50 @@
   }
 }
 
-.main-page__slider {
+.slider {
   overflow: hidden;
+}
+
+.slider-figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 25s slider infinite;
+}
+
+.slider-image {
+  width: 20%;
+  float: left;
+  object-fit: cover;
+  background-size: cover;
+  display: block;
+  height: 100vh;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
 }
