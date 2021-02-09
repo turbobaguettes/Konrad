@@ -6,6 +6,7 @@
   right: 25px;
   bottom: 25px;
   transition: 0.3s;
+  opacity: 0.6;
 }
 
 .up:hover{
@@ -14,8 +15,8 @@
 
 @media (max-width:767px){
     .up{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         right: 15px;
         bottom: 15px;
     }
