@@ -1,0 +1,22 @@
+.up {
+  background: url(/img/up.svg);
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  transition: 0.3s;
+}
+
+.up:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:767px){
+    .up{
+        width: 20px;
+        height: 20px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
