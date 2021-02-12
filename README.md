@@ -1,4 +1,4 @@
-# ModernClimb
+# Modern Climb
 
 Portfolio website for my friend
 
