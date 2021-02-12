@@ -2,4 +2,4 @@
 
 Portfolio website for my friend
 
-https://turbobaguettes.github.io/ModernClimb/
+https://turbobaguettes.github.io/Modern-Climb/
