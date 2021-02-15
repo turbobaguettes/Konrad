@@ -143,7 +143,7 @@
 @media (max-width: 1199px) {
   .main-navigation__mobile-button {
     display: unset;
-    background: none;
+    background: #21252b9a;
     border: none;
     padding: 5px;
     border: 1px solid #21252b;
