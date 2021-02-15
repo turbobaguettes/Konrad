@@ -57,24 +57,33 @@ body {
     padding-left: 3px;
     padding-right: 3px;
   }
+
+  .plusy {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .minusy {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .periodyzacja {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
 }
 
 .plusy {
   color: #2ea043;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .minusy {
   color: #da3633;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .periodyzacja {
   color: #f9826c;
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 .trening {
