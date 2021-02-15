@@ -58,3 +58,9 @@
 .articles__background {
   background: #21252b;
 }
+
+.articles-box {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
