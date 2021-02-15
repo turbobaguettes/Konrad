@@ -3,6 +3,7 @@
   margin-left: 10px;
   background: white;
   border-radius: 50%;
+  display: block;
 }
 
 .footer-container {
