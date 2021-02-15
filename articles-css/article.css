@@ -1,5 +1,5 @@
 body {
-  background: #21252B;
+  background: #21252b;
 }
 
 .articles-container {
@@ -61,14 +61,20 @@ body {
 
 .plusy {
   color: #2ea043;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .minusy {
   color: #da3633;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .periodyzacja {
   color: #f9826c;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .trening {
