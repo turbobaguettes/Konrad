@@ -1,3 +1,7 @@
+body {
+  background: #21252B;
+}
+
 .articles-container {
   background: #21252b;
 }
@@ -53,11 +57,6 @@
     padding-left: 3px;
     padding-right: 3px;
   }
-}
-
-.article-paragraph-last {
-  margin-bottom: 0px;
-  padding-bottom: 10px;
 }
 
 .plusy {
