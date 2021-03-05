@@ -1,242 +1,276 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Climb</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="img/logo.svg">
-    <link rel="stylesheet" href="main-css/main-page.css">
-    <link rel="stylesheet" href="main-css/global.css">
-    <link rel="stylesheet" href="main-css/navigation.css">
-    <link rel="stylesheet" href="main-css/container.css">
-    <link rel="stylesheet" href="main-css/about-us.css">
-    <link rel="stylesheet" href="main-css/services.css">
-    <link rel="stylesheet" href="main-css/contact.css">
-    <link rel="stylesheet" href="main-css/footer.css">
-    <link rel="stylesheet" href="main-css/articles.css">
-    <link rel="stylesheet" href="articles-css/article.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/logo.svg" />
+    <link rel="stylesheet" href="main-css/main-page.css" />
+    <link rel="stylesheet" href="main-css/global.css" />
+    <link rel="stylesheet" href="main-css/navigation.css" />
+    <link rel="stylesheet" href="main-css/container.css" />
+    <link rel="stylesheet" href="main-css/about-us.css" />
+    <link rel="stylesheet" href="main-css/services.css" />
+    <link rel="stylesheet" href="main-css/contact.css" />
+    <link rel="stylesheet" href="main-css/footer.css" />
+    <link rel="stylesheet" href="main-css/articles.css" />
+    <link rel="stylesheet" href="articles-css/article.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="main-navigation">
-        <div class="main-navigation__container">
-            <div class="main-navigation__logo">
-                <a href="#" class="main-navigation__logo-link">
-                    Modern Climb
-                    <img src="img/logo.svg" alt="Logo" class="main-navigation__logo-image" />
-                </a>
-            </div>
-            <ul class="main-navigation__menu js-main-navigation__menu">
-                <li class="main-navigation__menu-item">
-                    <a href="#" class="main-navigation__menu-link"> Strona główna </a>
-                </li>
-                <li class="main-navigation__menu-item">
-                    <a href="#articles" class="main-navigation__menu-link">
-                        Artykuły </a>
-                </li>
-                <li class="main-navigation__menu-item">
-                    <a href="#about-us" class="main-navigation__menu-link"> O mnie </a>
-                </li>
-
-                <li class="main-navigation__menu-item">
-                    <a href="#services" class="main-navigation__menu-link"> Plan treningowy </a>
-                </li>
-                <li class="main-navigation__menu-item">
-                    <a href="#contact" class="main-navigation__menu-link"> Kontakt </a>
-                </li>
-            </ul>
-            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
-                <img src="img/navigation.svg" alt="Nawigacja" class="main-navigation__mobile-button-image" />
-            </button>
+      <div class="main-navigation__container">
+        <div class="main-navigation__logo">
+          <a href="#" class="main-navigation__logo-link">
+            Modern Climb
+            <img
+              src="img/logo.svg"
+              alt="Logo"
+              class="main-navigation__logo-image"
+            />
+          </a>
         </div>
+        <ul class="main-navigation__menu js-main-navigation__menu">
+          <li class="main-navigation__menu-item">
+            <a href="#" class="main-navigation__menu-link"> Strona główna </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="#articles" class="main-navigation__menu-link">
+              Artykuły
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="#about-us" class="main-navigation__menu-link"> O mnie </a>
+          </li>
 
+          <li class="main-navigation__menu-item">
+            <a href="#services" class="main-navigation__menu-link">
+              Plan treningowy
+            </a>
+          </li>
+          <li class="main-navigation__menu-item">
+            <a href="#contact" class="main-navigation__menu-link"> Kontakt </a>
+          </li>
+        </ul>
+        <button
+          class="main-navigation__mobile-button js-main-navigation__mobile-button"
+        >
+          <img
+            src="img/navigation.svg"
+            alt="Nawigacja"
+            class="main-navigation__mobile-button-image"
+          />
+        </button>
+      </div>
     </nav>
 
     <script src="js/main-navigation.js"></script>
 
     <section class="main-page main-page__slider" id="#">
+      <div class="slider">
+        <figure class="slider-figure">
+          <img src="img/slider1.jpg" alt="MainImage" class="slider-image" />
+          <img src="img/slider2.jpg" alt="MainImage" class="slider-image" />
+          <img src="img/slider3.jpg" alt="MainImage" class="slider-image" />
+          <img src="img/slider4.jpg" alt="MainImage" class="slider-image" />
+        </figure>
+      </div>
 
-        <div class="slider">
-            <figure class="slider-figure">
-                <img src="img/slider1.jpg" alt="MainImage" class="slider-image">
-                <img src="img/slider2.jpg" alt="MainImage" class="slider-image">
-                <img src="img/slider3.jpg" alt="MainImage" class="slider-image">
-                <img src="img/slider4.jpg" alt="MainImage" class="slider-image">
-            </figure>
-        </div>
-
-        <a href="#articles" class="main-page__link">Więcej</a>
+      <a href="#articles" class="main-page__link">Więcej</a>
     </section>
 
     <div class="articles__background" id="articles">
-        <div class="container">
-            <section class="articles">
-                <div class="articles__text">
-                    <h2 class="articles__header">
-                        Artykuły
-                    </h2>
-                    <div class="article">
+      <div class="container">
+        <section class="articles">
+          <div class="articles__text">
+            <h2 class="articles__header">Artykuły</h2>
+            <div class="article">
+              <h2 class="article-header">Periodyzacja</h2>
+              <p class="article-paragraph">
+                Periodyzacja to różne rodzaje okresowego treningu. Jest to
+                kluczowa rzecz w treningu wspinaczkowym, która pomoże nam
+                wzmacniać nasze słabe i mocne strony w określony sposób. Rodzaj
+                periodyzacji w dużej mierze zależy od stopnia wytrenowania danej
+                osoby. Początkujący nie da rady trenować 4 razy w tygodniu
+                rozwijając kilka wartości w tym samym czasie. Przejdźmy do
+                rodzajów periodyzacji ich plusów i minusów.
+              </p>
+              <p class="article-paragraph">
+                <span class="blur">
+                  <strong class="periodyzacja"> Linear Periodization</strong> -
+                  Periodyzacja, w której skupiamy się na jednym bodźcu
+                  treningowym np. przez miesiąc robimy tylko siłę. Typowy
+                  schemat wygląda w ten sposób <br />
 
-                        <h2 class="article-header">Periodyzacja</h2>
-                        <p class="article-paragraph">Periodyzacja to różne rodzaje okresowego treningu. Jest to
-                            kluczowa
-                            rzecz w
-                            treningu
-                            wspinaczkowym, która pomoże nam wzmacniać nasze słabe i mocne strony w określony sposób.
-                            Rodzaj
-                            periodyzacji w dużej mierze zależy od stopnia wytrenowania danej osoby. Początkujący nie
-                            da
-                            rady
-                            trenować
-                            4 razy w tygodniu rozwijając kilka wartości w tym samym czasie.
-                            Przejdźmy do rodzajów periodyzacji ich plusów i minusów.</p>
-                        <p class="article-paragraph">
-                            <span class="blur">
+                  <button class="trening trening1">
+                    Miesiąc 1 - Wytrzymałość tlenowa
+                  </button>
+                  <button class="trening trening2">Miesiąc 2 - Siła</button>
+                  <button class="trening trening3">Miesiąc 3 - Moc</button>
+                </span>
+              </p>
 
-                                <strong class="periodyzacja"> Linear Periodization</strong> - Periodyzacja, w której
-                                skupiamy się na
-                                jednym bodźcu treningowym np. przez
-                                miesiąc
-                                robimy tylko siłę. Typowy schemat wygląda w ten sposób <br>
-
-                                <button class="trening trening1">Miesiąc 1 - Wytrzymałość tlenowa</button>
-                                <button class="trening trening2">Miesiąc 2 - Siła</button>
-                                <button class="trening trening3">Miesiąc 3 - Moc</button>
-                            </span>
-                        </p>
-
-                        <a href="articles.html" class="articles__link">Czytaj całość</a>
-                    </div>
-                </div>
-            </section>
-        </div>
+              <a href="periodyzacja.html" class="articles__link"
+                >Czytaj całość</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
     <div class="about-us__background" id="about-us">
-        <div class="container">
-            <section class="about-us">
-                <div class="about-us__text">
-                    <h2 class="about-us__header">
-                        O mnie
-                    </h2>
-                    <p class="about-us__paragraph">
-                        Mam na imię Konrad i zajmuje się treningiem wspinaczkowym. Polegam na nowych metodach
-                        treningowych
-                        które bardzo dobrze sprawdzają się u podopiecznych na wielu poziomach zaawansowania, od 7a do
-                        8b+. Każda osoba
-                        potrzebuje indywidualnego planu, jedni potrzebują
-                        techniki, drudzy siły, a trzeci wytrzymałości. Niestety często widzę jak ludzie próbują
-                        zwiększyć
-                        wytrzymałość w kółko zarzynając się na obwodach i nie patrząc na swoją technikę lub wytrzymałość
-                        tlenową, które są bardzo ważnym aspektem, dlatego chcę pomóc wspinaczom tworząc tę stronę.
-                        Znajdziecie tu informacje na temat treningu, jakie mamy rodzaje periodyzacji, ile
-                        powinniśmy i ile możemy trenować oraz wiele innych. Jest także opcja spersonalizowanego treningu
-                        który będzie
-                        oparty na słabościach i mocnych stronach wspinacza.
-                    </p>
-                </div>
-                <img class="about-us__image" src="img/about-us-image.jpg" alt="AboutUsImage">
-            </section>
-        </div>
+      <div class="container">
+        <section class="about-us">
+          <div class="about-us__text">
+            <h2 class="about-us__header">O mnie</h2>
+            <p class="about-us__paragraph">
+              Mam na imię Konrad i zajmuje się treningiem wspinaczkowym. Polegam
+              na nowych metodach treningowych które bardzo dobrze sprawdzają się
+              u podopiecznych na wielu poziomach zaawansowania, od 7a do 8b+.
+              Każda osoba potrzebuje indywidualnego planu, jedni potrzebują
+              techniki, drudzy siły, a trzeci wytrzymałości. Niestety często
+              widzę jak ludzie próbują zwiększyć wytrzymałość w kółko zarzynając
+              się na obwodach i nie patrząc na swoją technikę lub wytrzymałość
+              tlenową, które są bardzo ważnym aspektem, dlatego chcę pomóc
+              wspinaczom tworząc tę stronę. Znajdziecie tu informacje na temat
+              treningu, jakie mamy rodzaje periodyzacji, ile powinniśmy i ile
+              możemy trenować oraz wiele innych. Jest także opcja
+              spersonalizowanego treningu który będzie oparty na słabościach i
+              mocnych stronach wspinacza.
+            </p>
+          </div>
+          <img
+            class="about-us__image"
+            src="img/about-us-image.jpg"
+            alt="AboutUsImage"
+          />
+        </section>
+      </div>
     </div>
 
     <section class="services" id="services">
-        <div class="offer-container">
-            <div class="box">
-                <h2 class="box-header">1</h2>
-                <h3 class="box-third-header">jeden miesiąc</h3>
-                <p class="box-paragraph">
-                    Plan zawiera:
-                </p>
-                <ul class="box-list">
-                    <li class="box-list__item">Testy analizujące słabości i mocne strony wspinacza</li>
-                    <li class="box-list__item">Kontakt z trenerem</li>
-                    <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
-                </ul>
-                <p class="box-price">Cena 100 zł</p>
-            </div>
-            <div class="box">
-                <h2 class="box-header">3</h2>
-                <h3 class="box-third-header">trzy miesiące</h3>
-                <p class="box-paragraph">
-                    Plan zawiera:
-                </p>
-                <ul class="box-list">
-                    <li class="box-list__item">Testy analizujące słabości i mocne strony wspinacza</li>
-                    <li class="box-list__item">Kontakt z trenerem</li>
-                    <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
-                </ul>
-                <p class="box-price">Cena 250 zł</p>
-
-            </div>
-            <div class="box">
-                <h2 class="box-header">6</h2>
-                <h3 class="box-third-header">sześć miesięcy</h3>
-                <p class="box-paragraph">
-                    Plan zawiera:
-                </p>
-                <ul class="box-list">
-                    <li class="box-list__item">Testy analizujące słabości i mocne strony wspinacza</li>
-                    <li class="box-list__item">Kontakt z trenerem</li>
-                    <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
-                </ul>
-                <p class="box-price">Cena 450 zł</p>
-
-            </div>
-            <div id="contact"></div>
-
+      <div class="offer-container">
+        <div class="box">
+          <h2 class="box-header">1</h2>
+          <h3 class="box-third-header">jeden miesiąc</h3>
+          <p class="box-paragraph">Plan zawiera:</p>
+          <ul class="box-list">
+            <li class="box-list__item">
+              Testy analizujące słabości i mocne strony wspinacza
+            </li>
+            <li class="box-list__item">Kontakt z trenerem</li>
+            <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
+          </ul>
+          <p class="box-price">Cena 100 zł</p>
         </div>
+        <div class="box">
+          <h2 class="box-header">3</h2>
+          <h3 class="box-third-header">trzy miesiące</h3>
+          <p class="box-paragraph">Plan zawiera:</p>
+          <ul class="box-list">
+            <li class="box-list__item">
+              Testy analizujące słabości i mocne strony wspinacza
+            </li>
+            <li class="box-list__item">Kontakt z trenerem</li>
+            <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
+          </ul>
+          <p class="box-price">Cena 250 zł</p>
+        </div>
+        <div class="box">
+          <h2 class="box-header">6</h2>
+          <h3 class="box-third-header">sześć miesięcy</h3>
+          <p class="box-paragraph">Plan zawiera:</p>
+          <ul class="box-list">
+            <li class="box-list__item">
+              Testy analizujące słabości i mocne strony wspinacza
+            </li>
+            <li class="box-list__item">Kontakt z trenerem</li>
+            <li class="box-list__item">Sczegółowo rozpisany plan treningowy</li>
+          </ul>
+          <p class="box-price">Cena 450 zł</p>
+        </div>
+        <div id="contact"></div>
+      </div>
     </section>
 
     <section class="contact">
-        <form action="https://formspree.io/f/xnqorwvk" method="post" class="contact-form">
-            <h2 class="contact-header">Napisz do mnie</h2>
-            <p class="contact-paragraph">Jeśli chcesz zadać pytanie związane z treningiem lub Chciałbyś zacząć ze
-                mną
-                trenować.</p>
+      <form
+        action="https://formspree.io/f/xnqorwvk"
+        method="post"
+        class="contact-form"
+      >
+        <h2 class="contact-header">Napisz do mnie</h2>
+        <p class="contact-paragraph">
+          Jeśli chcesz zadać pytanie związane z treningiem lub Chciałbyś zacząć
+          ze mną trenować.
+        </p>
 
-            <div class="contact-inner">
-                <div class="contact-inner-item">
-                    <img src="img/email.svg" alt="Email" class="contact-icon"><a href="mailto:modernclimbmail@gmail.com"
-                        class="contact-link">modernclimbmail@gmail.com</a>
-                </div>
-                <div class="contact-inner-item">
-                    <img src="img/phone.svg" alt="Phone" class="contact-icon"><a href="tel:507962100"
-                        class="contact-link">507 962 100</a>
-                </div>
-            </div>
-
-            <div class="contact-fields-container">
-                <div class="contact-fields">
-                    <input class="contact-field" placeholder="Imię i nazwisko" name="name" required>
-                </div>
-                <div class="contact-fields">
-                    <input type="email" name="e-mail" class="contact-field" required placeholder="Adres e-mail">
-                </div>
-                <div class="contact-fields">
-                    <textarea name="content" required rows="10" class="contact-field contact-field-textarea"
-                        placeholder="Treść wiadomości"></textarea>
-                </div>
-                <button class="contact-button">Wyślij</button>
-            </div>
-        </form>
-
-        <div class="footer-container">
-            Projekt strony i wykonanie: Kacper Kwinta
-            <a href="https://github.com/turbobaguettes?tab=repositories"><img src="img/github.svg" alt="Github"
-                    class="footer-icon">
-            </a>
+        <div class="contact-inner">
+          <div class="contact-inner-item">
+            <img src="img/email.svg" alt="Email" class="contact-icon" /><a
+              href="mailto:modernclimbmail@gmail.com"
+              class="contact-link"
+              >modernclimbmail@gmail.com</a
+            >
+          </div>
+          <div class="contact-inner-item">
+            <img src="img/phone.svg" alt="Phone" class="contact-icon" /><a
+              href="tel:507962100"
+              class="contact-link"
+              >507 962 100</a
+            >
+          </div>
         </div>
 
+        <div class="contact-fields-container">
+          <div class="contact-fields">
+            <input
+              class="contact-field"
+              placeholder="Imię i nazwisko"
+              name="name"
+              required
+            />
+          </div>
+          <div class="contact-fields">
+            <input
+              type="email"
+              name="e-mail"
+              class="contact-field"
+              required
+              placeholder="Adres e-mail"
+            />
+          </div>
+          <div class="contact-fields">
+            <textarea
+              name="content"
+              required
+              rows="10"
+              class="contact-field contact-field-textarea"
+              placeholder="Treść wiadomości"
+            ></textarea>
+          </div>
+          <button class="contact-button">Wyślij</button>
+        </div>
+      </form>
+
+      <div class="footer-container">
+        Projekt strony i wykonanie: Kacper Kwinta
+        <a href="https://github.com/turbobaguettes?tab=repositories"
+          ><img src="img/github.svg" alt="Github" class="footer-icon" />
+        </a>
+      </div>
     </section>
-
-</body>
-
+  </body>
 </html>
