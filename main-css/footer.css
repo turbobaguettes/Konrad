@@ -4,6 +4,7 @@
   background: white;
   border-radius: 50%;
   display: block;
+  opacity: 0.6;
 }
 
 .footer-container {
@@ -12,7 +13,7 @@
   justify-content: center;
   text-align: center;
   background: #21252b;
-  color: gray;
+  color: rgb(92, 92, 92);
   font-size: 14px;
   padding: 3px;
 }

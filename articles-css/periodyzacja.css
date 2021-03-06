@@ -1,0 +1,55 @@
+.trening {
+  width: 100%;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #039be5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  user-select: none;
+}
+
+.trening1 {
+  background: #039be5;
+}
+
+.trening2 {
+  background: #d50000;
+}
+
+.trening3 {
+  background: #e67c73;
+}
+
+.trening4 {
+  background: #3f51b5;
+}
+
+.trening5 {
+  background: #8e24aa;
+}
+
+.trening6 {
+  background: #0b8043;
+}
+
+.trening10 {
+  background: #d50000;
+}
+
+.trening11 {
+  background: #e67c73;
+}
+
+.trening12 {
+  background: #d50000;
+}
+
+.trening13 {
+  background: conic-gradient(#3f51b5 50%, #039be5 50%);
+}
