@@ -33,7 +33,7 @@ body {
 }
 
 .article {
-  padding: 50px;
+  padding: 10px;
   margin: 0 auto;
   width: 700px;
   color: white;
@@ -69,6 +69,7 @@ body {
 
 .keyword {
   color: #f9826c;
+  line-height: 1.5;
 }
 
 /* #F9826C orange*/
