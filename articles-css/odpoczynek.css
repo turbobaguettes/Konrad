@@ -1,5 +1,7 @@
 .odpoczynek-one {
   display: block;
   width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   height: 300px;
 }
