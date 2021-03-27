@@ -23,6 +23,7 @@ body {
 
 .article-header {
   color: #27a9f1;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
