@@ -47,21 +47,3 @@
     display: none;
   }
 }
-
-.about-us__link {
-  text-decoration: none;
-  color: white;
-  padding: 10px 20px;
-  border: 1px solid white;
-  transition: 0.3s;
-  border-radius: 30px;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
-}
-
-.about-us__link:hover {
-  box-shadow: 0 0 5px rgb(255, 255, 255);
-}
-
-.about-us__background {
-  background: #21252b;
-}
