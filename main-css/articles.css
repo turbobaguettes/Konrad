@@ -39,20 +39,16 @@
 }
 
 .articles__link {
-  line-height: 2;
   text-decoration: none;
   color: white;
   padding: 10px 20px;
   border: 1px solid white;
   transition: 0.3s;
-  border-radius: 30px;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  border-radius: 50px;
 }
 
 .articles__link:hover {
-  box-shadow: 0 0 5px rgb(255, 255, 255);
-}
-
-.articles__background {
-  background: #21252b;
+  box-shadow: 0 0 5px #249be5;
+  color: #249be5;
+  border: 1px solid #249be5;
 }
