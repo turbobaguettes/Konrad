@@ -106,20 +106,19 @@
 .contact-button {
   height: 40px;
   width: 100px;
-  background: white;
-  color: black;
-  border: 1px white;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
   border-radius: 20px;
   transition: 0.3s;
   cursor: pointer;
   margin: 5px;
-  box-shadow: 0 0 10px #ccc;
 }
 
 .contact-button:hover {
-  color: white;
-  box-shadow: 0 0 10px #08a9f1;
-  background: #08a9f1;
+  box-shadow: 0 0 5px #249be5;
+  color: #249be5;
+  border: 1px solid #249be5;
 }
 
 .contact-field-textarea {
