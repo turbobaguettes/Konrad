@@ -64,6 +64,8 @@
 
 .box:hover {
   transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
 }
 
 .box:nth-child(1) {
