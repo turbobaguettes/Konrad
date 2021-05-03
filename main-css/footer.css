@@ -4,18 +4,15 @@
   background: white;
   border-radius: 50%;
   display: block;
-  opacity: 0.6;
 }
 
 .footer-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   background: #21252b;
-  color: rgb(92, 92, 92);
+  color: gray;
   font-size: 14px;
-  padding: 3px;
+  margin-bottom: 3px;
 }
 
 @media (max-width: 767px) {
