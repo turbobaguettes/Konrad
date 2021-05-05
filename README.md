@@ -1,5 +1,7 @@
 # Modern Climb
 
-Portfolio website for my friend
+Portfolio website for my friend who deals with climbing and training
 
-https://turbobaguettes.github.io/Modern-Climb/
+HTML, CSS, vanilla JS only 
+
+https://modern-climb.pl/
