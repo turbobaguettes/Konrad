@@ -8,12 +8,12 @@ body {
 .thanks-section {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .thanks-section__container {
   margin-top: 200px;
   padding: 50px;
-  width: 1000px;
   background-color: white;
   border: 1px solid white;
   border-radius: 10px;
@@ -22,15 +22,8 @@ body {
 
 @media (max-width: 991px) {
   .thanks-section__container {
-    width: 90%;
     padding: 20px;
-  }
-}
-
-@media (max-width: 400px) {
-  .thanks-section__container {
-    width: 90%;
-    margin-top: 150px;
+    margin: 200px 25px 25px 25px;
   }
 }
 
@@ -51,19 +44,6 @@ body {
 @media (max-width: 400px) {
   .thanks-section__h {
     font-size: 30px;
-  }
-}
-
-.thanks-section__p {
-  font-size: 28px;
-  text-align: justify;
-  line-height: 1.5;
-  animation: FadeIn 0.6s ease 0s normal none;
-}
-
-@media (max-width: 991px) {
-  .thanks-section__p {
-    font-size: 20px;
   }
 }
 
@@ -101,7 +81,7 @@ body {
   }
 }
 
-/* header and paragraph animation */
+/* header animation */
 @keyframes FadeIn {
   0.0% {
     transform: translate(0, -50px);
