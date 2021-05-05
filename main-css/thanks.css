@@ -1,0 +1,126 @@
+body {
+  background-image: url(/img/Flat-Mountains.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.thanks-section {
+  display: flex;
+  justify-content: center;
+}
+
+.thanks-section__container {
+  margin-top: 200px;
+  padding: 50px;
+  width: 1000px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  animation: container 3s ease 0s normal none;
+}
+
+@media (max-width: 991px) {
+  .thanks-section__container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .thanks-section__container {
+    width: 90%;
+    margin-top: 150px;
+  }
+}
+
+.thanks-section__h {
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  animation: FadeIn 0.65s ease 0s normal none;
+}
+
+@media (max-width: 991px) {
+  .thanks-section__h {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .thanks-section__h {
+    font-size: 30px;
+  }
+}
+
+.thanks-section__p {
+  font-size: 28px;
+  text-align: justify;
+  line-height: 1.5;
+  animation: FadeIn 0.6s ease 0s normal none;
+}
+
+@media (max-width: 991px) {
+  .thanks-section__p {
+    font-size: 20px;
+  }
+}
+
+.thanks-section__l {
+  font-size: 28px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px 20px;
+  color: black;
+  transition: 0.3s;
+  animation: button 1.9s ease 0s normal none;
+}
+
+@media (max-width: 991px) {
+  .thanks-section__l {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+}
+
+.thanks-section__l:hover {
+  color: #27a9f1;
+  border: 2px solid #27a9f1;
+  box-shadow: 0 0 10px #27a9f1;
+}
+
+/* white container animation */
+@keyframes container {
+  0.0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* header and paragraph animation */
+@keyframes FadeIn {
+  0.0% {
+    transform: translate(0, -50px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* button animation */
+@keyframes button {
+  0.0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
