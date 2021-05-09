@@ -24,12 +24,15 @@ body {
 .article-header {
   color: #27a9f1;
   text-align: center;
+  margin-top: 100px;
+  font-size: 36px;
 }
 
 @media (max-width: 767px) {
   .article-header {
     text-align: center;
     padding-top: 25px;
+    font-size: 24px;
   }
 }
 
@@ -71,6 +74,10 @@ body {
 .keyword {
   color: #f9826c;
   line-height: 1.5;
+}
+
+.paragraph-blue {
+  color: #249be5;
 }
 
 /* #F9826C orange*/
