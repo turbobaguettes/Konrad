@@ -120,8 +120,15 @@
 }
 
 .main-navigation__social-icon {
+  padding-top: 5px;
   width: 24px;
   transition: 0.3s;
+}
+
+@media (max-width: 991px) {
+  .main-navigation__social-icon {
+    margin-top: 0px !important;
+  }
 }
 
 .main-navigation__social-icon:hover {
