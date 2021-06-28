@@ -21,7 +21,7 @@
   color: white;
   display: flex;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -33,7 +33,7 @@
 }
 
 .main-navigation__logo-image {
-  width: 50px;
+  width: 40px;
   margin-left: 15px;
 }
 
