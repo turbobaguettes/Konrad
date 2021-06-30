@@ -1,0 +1,95 @@
+body {
+  background-image: url(../img/thanks-page-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  margin: 150px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 599px) {
+  .container {
+    margin: 100px 0;
+  }
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.article {
+  border-radius: 5px;
+  margin: 15px;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.article:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+@media (max-width: 999px) {
+  .article {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 599px) {
+  .article {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.periodyzacja {
+  background-image: url("../img/periodyzacja.webp");
+  background-size: cover;
+}
+
+.odpoczynek {
+  background-image: url("../img/odpoczynek.webp");
+  background-size: cover;
+}
+
+.moc {
+  background-image: url("../img/moc.webp");
+  background-size: cover;
+}
+
+.sezon {
+  background-image: url("../img/sezon.webp");
+  background-size: cover;
+}
+
+.article-title {
+  color: white;
+  font-size: 24px;
+  background-color: black;
+  padding: 10px 15px;
+}
+/*# sourceMappingURL=lista.css.map */
